@@ -1,0 +1,79 @@
+.navbar-toggler:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.navbar-toggler-icon {
+  background-image: none;
+  color: white;
+}
+
+.nav-link,
+.dropdown-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dropstart>.dropdown-menu,
+.dropdown>.dropdown-menu,
+.dropend>.dropdown-menu {
+  border-radius: 0px;
+  border: none;
+}
+
+.dropend>.dropdown-toggle::after {
+  margin-top: 3px;
+}
+
+.dropdown_toggle_icon::after {
+  display: none;
+}
+
+@media only screen and (min-width: 992px) {
+
+  .dropstart>.dropdown-menu,
+  .dropdown>.dropdown-menu,
+  .dropend>.dropdown-menu {
+    display: none;
+  }
+
+  .dropstart:hover>.dropdown-menu {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 100%;
+  }
+
+  .dropdown:hover>.dropdown-menu {
+    display: block;
+    left: 0;
+  }
+
+  .dropend:hover>.dropdown-menu {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 100%;
+  }
+
+
+}
+
+@media only screen and (max-width: 992px) {
+  .dropstart>.dropdown-toggle {
+    order: 1;
+  }
+
+  .dropstart>.dropdown-toggle::before {
+    order: 2;
+  }
+
+  .dropstart>.dropdown-toggle::before {
+    transform: rotate(-90deg);
+  }
+
+  .dropend>.dropdown-toggle::after {
+    transform: rotate(90deg);
+  }
+}

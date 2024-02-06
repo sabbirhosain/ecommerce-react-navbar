@@ -1,3 +1,4 @@
+.form-control:focus,
 .navbar-toggler:focus {
   outline: none;
   box-shadow: none;
@@ -6,6 +7,9 @@
 .navbar-toggler-icon {
   background-image: none;
   color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .nav-link,
@@ -24,6 +28,12 @@
 
 .dropend>.dropdown-toggle::after {
   margin-top: 3px;
+}
+
+.dropdown_toggle_icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .dropdown_toggle_icon::after {

@@ -1,6 +1,10 @@
 import { HiMiniBarsArrowDown } from 'react-icons/hi2'
 import { FaSearch, FaUser } from "react-icons/fa";
 import { IoMdCart } from "react-icons/io";
+import { CiLogin } from "react-icons/ci";
+import { SiGnuprivacyguard } from "react-icons/si";
+import { MdOutlineDashboardCustomize } from "react-icons/md";
+
 
 import "./Header.css"
 
@@ -17,14 +21,14 @@ const Header = () => {
             <div class="dropdown order-last">
               <button class="btn btn-secondary dropdown-toggle dropdown_toggle_icon" data-bs-toggle="dropdown" aria-expanded="false"><FaUser /></button>
               <ul class="dropdown-menu dropdown-menu-end">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <li><a class="dropdown-item justify-content-start" href="#"><CiLogin />&ensp;Login</a></li>
+                <li><a class="dropdown-item justify-content-start" href="#"><SiGnuprivacyguard />&ensp;Register</a></li>
+                <li><a class="dropdown-item justify-content-start" href="#"><MdOutlineDashboardCustomize />&ensp;Dashbord</a></li>
               </ul>
             </div>
 
             <div className='me-3 order-2'>
-              <button class="btn btn-secondary position-relative">
+              <button class="btn btn-secondary position-relative dropdown_toggle_icon">
                 <IoMdCart />
                 <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">0</span>
               </button>
@@ -35,13 +39,9 @@ const Header = () => {
                 <FaSearch />
               </button>
               <form class="dropdown-menu w-100 p-4">
-                {/* <div class="input-group">
-                  <input type="email" class="form-control" id="" placeholder="Search hear..." />
-                  <button type="submit" class="btn btn-primary mt-3 w-100">Search</button>
-                </div> */}
                 <div class="input-group">
                   <input type="text" class="form-control" placeholder="Search items..." aria-describedby="search-box" />
-                  <button class="input-group-text bg-success" id="srarch-box">Search</button>
+                  <button type='submit' class="input-group-text bg-primary" id="srarch-box">Search</button>
                 </div>
               </form>
             </div>
@@ -168,7 +168,7 @@ const Header = () => {
               </li>
 
             </ul>
-            <form className="d-flex" role="search">
+            <form className="d-none d-sm-flex" role="search">
               <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
               <button className="btn btn-outline-success" type="submit">Search</button>
             </form>

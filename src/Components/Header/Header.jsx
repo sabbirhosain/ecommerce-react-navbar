@@ -7,6 +7,7 @@ import { MdOutlineDashboardCustomize } from "react-icons/md";
 
 
 import "./Header.css"
+import Offcanvas from './Offcanvas/Offcanvas';
 
 const Header = () => {
   return (
@@ -14,7 +15,7 @@ const Header = () => {
       <nav className="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
         <div className="container">
           <a className="navbar-brand" href="#">Navbar</a>
-
+          {/* <Offcanvas /> */}
           {/* icons for mobile devices */}
           <div className='d-flex align-items-center d-lg-none ms-auto me-3'>
 

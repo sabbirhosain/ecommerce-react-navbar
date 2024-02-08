@@ -10,8 +10,8 @@ const App = () => {
   return (
     <>
       <Header />
-      <Categories />
-      <Offcanvas />
+      {/* <Categories /> */}
+      {/* <Offcanvas /> */}
     </>
   )
 }

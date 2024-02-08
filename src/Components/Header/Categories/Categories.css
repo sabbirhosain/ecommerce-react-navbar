@@ -1,0 +1,10 @@
+.categories_box {
+  max-width: 300px;
+}
+
+/* ======== category dropdown jodi onno jaigate use korle class ta remove korte hobe  */
+.categories_list {
+  position: absolute;
+  width: 20%;
+  margin-top: 10px;
+}

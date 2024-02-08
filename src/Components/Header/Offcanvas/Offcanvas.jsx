@@ -1,10 +1,12 @@
 import { FaComputer } from "react-icons/fa6";
+import { MdOutlineDashboardCustomize } from "react-icons/md";
+
 import "./Offcanvas.css"
 
 const Offcanvas = () => {
   return (
     <>
-      <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">Offcanvas</button>
+      <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample"><MdOutlineDashboardCustomize /></button>
 
       <div class="offcanvas offcanvas_box offcanvas-start" tabIndex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
 
@@ -59,7 +61,7 @@ const Offcanvas = () => {
                         <li><a href="" className="list-group-item ( offcanvas_item )"><FaComputer />&ensp;Laptop</a></li>
                         <li><a href="" className="list-group-item ( offcanvas_item )"><FaComputer />&ensp;Laptop</a></li>
                         <li><a href="" className="list-group-item ( offcanvas_item )"><FaComputer />&ensp;Laptop</a></li>
-                        
+
                         <li className="dropdown list-group">
                           <button class="dropdown-toggle list-group-item ( offcanvas_btn )" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside"><span><FaComputer />&ensp;Laptop List</span></button>
 

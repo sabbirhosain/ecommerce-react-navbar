@@ -6,16 +6,21 @@ import { SiGnuprivacyguard } from "react-icons/si";
 import { MdOutlineDashboardCustomize } from "react-icons/md";
 
 
+
 import "./Header.css"
 import Offcanvas from './Offcanvas/Offcanvas';
+import Categories from './Categories/Categories';
 
 const Header = () => {
   return (
     <>
       <nav className="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
         <div className="container">
-          <a className="navbar-brand" href="#">Navbar</a>
-          {/* <Offcanvas /> */}
+          {/* <a className="navbar-brand" href="#">Navbar</a> */}
+
+          <div className="d-lg-none"><Offcanvas /></div>
+          <div className="col-lg-3 d-none d-lg-block"><Categories /></div>
+
           {/* icons for mobile devices */}
           <div className='d-flex align-items-center d-lg-none ms-auto me-3'>
 
@@ -52,7 +57,7 @@ const Header = () => {
             <span className="navbar-toggler-icon"><HiMiniBarsArrowDown /></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav m-auto mb-2 mb-lg-0">
+            <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
 
               <li className="nav-item">
                 <a className="nav-link active" aria-current="page" href="#">Home</a>

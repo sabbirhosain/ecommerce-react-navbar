@@ -22,65 +22,65 @@ const Offcanvas = () => {
             <li><a href="" className="list-group-item"><FaComputer />&ensp;Hello World</a></li>
 
             <li className="dropdown list-group">
-              <button class="dropdown-toggle list-group-item d-flex align-items-center justify-content-between" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside"><span><FaComputer />&ensp;Dropdown link 1</span></button>
+              <button class="dropdown-toggle list-group-item d-flex align-items-center justify-content-between" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside"><span><FaComputer />&ensp;Computer List</span></button>
 
               <ul class="dropdown-menu p-0 w-100">
-                <li> <a href="" className="list-group-item"><FaComputer />&ensp;Hello World 1</a></li>
-                <li> <a href="" className="list-group-item"><FaComputer />&ensp;Hello World 1</a></li>
-                <li> <a href="" className="list-group-item"><FaComputer />&ensp;Hello World 1</a></li>
-                <li> <a href="" className="list-group-item"><FaComputer />&ensp;Hello World 1</a></li>
-                <li> <a href="" className="list-group-item"><FaComputer />&ensp;Hello World 1</a></li>
+                <li> <a href="" className="list-group-item"><FaComputer />&ensp;Computer</a></li>
+                <li> <a href="" className="list-group-item"><FaComputer />&ensp;Computer</a></li>
+                <li> <a href="" className="list-group-item"><FaComputer />&ensp;Computer</a></li>
+                <li> <a href="" className="list-group-item"><FaComputer />&ensp;Computer</a></li>
+                <li> <a href="" className="list-group-item"><FaComputer />&ensp;Computer</a></li>
               </ul>
             </li>
 
             <li className="dropdown list-group">
-              <button class="dropdown-toggle list-group-item d-flex align-items-center justify-content-between" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside"><span><FaComputer />&ensp;Dropdown link 1</span></button>
+              <button class="dropdown-toggle list-group-item d-flex align-items-center justify-content-between" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside"><span><FaComputer />&ensp;Dasktop List</span></button>
 
               <ul class="dropdown-menu p-0 w-100">
-                <li><a href="" className="list-group-item"><FaComputer />&ensp;Hello World</a></li>
-                <li><a href="" className="list-group-item"><FaComputer />&ensp;Hello World</a></li>
-                <li><a href="" className="list-group-item"><FaComputer />&ensp;Hello World</a></li>
-                <li><a href="" className="list-group-item"><FaComputer />&ensp;Hello World</a></li>
+                <li><a href="" className="list-group-item"><FaComputer />&ensp;Dasktop</a></li>
+                <li><a href="" className="list-group-item"><FaComputer />&ensp;Dasktop</a></li>
+                <li><a href="" className="list-group-item"><FaComputer />&ensp;Dasktop</a></li>
+                <li><a href="" className="list-group-item"><FaComputer />&ensp;Dasktop</a></li>
 
                 <li className="dropdown list-group">
-                  <button class="dropdown-toggle list-group-item d-flex align-items-center justify-content-between" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside"><span><FaComputer />&ensp;Dropdown link 1</span></button>
+                  <button class="dropdown-toggle list-group-item d-flex align-items-center justify-content-between" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside"><span><FaComputer />&ensp;Laptop List</span></button>
 
                   <ul class="dropdown-menu p-0 w-100">
-                    <li><a href="" className="list-group-item"><FaComputer />&ensp;Hello World</a></li>
-                    <li><a href="" className="list-group-item"><FaComputer />&ensp;Hello World</a></li>
-                    <li><a href="" className="list-group-item"><FaComputer />&ensp;Hello World</a></li>
-                    <li><a href="" className="list-group-item"><FaComputer />&ensp;Hello World</a></li>
+                    <li><a href="" className="list-group-item"><FaComputer />&ensp;Laptop</a></li>
+                    <li><a href="" className="list-group-item"><FaComputer />&ensp;Laptop</a></li>
+                    <li><a href="" className="list-group-item"><FaComputer />&ensp;Laptop</a></li>
+                    <li><a href="" className="list-group-item"><FaComputer />&ensp;Laptop</a></li>
                   </ul>
                 </li>
               </ul>
             </li>
 
             <li className="dropdown list-group">
-              <button class="dropdown-toggle list-group-item d-flex align-items-center justify-content-between" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside"><span><FaComputer />&ensp;Dropdown link 1</span></button>
+              <button class="dropdown-toggle list-group-item d-flex align-items-center justify-content-between" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside"><span><FaComputer />&ensp;Mobile List</span></button>
 
               <ul class="dropdown-menu p-0 w-100">
-                <li><a href="" className="list-group-item"><FaComputer />&ensp;Hello World</a></li>
-                <li><a href="" className="list-group-item"><FaComputer />&ensp;Hello World</a></li>
-                <li><a href="" className="list-group-item"><FaComputer />&ensp;Hello World</a></li>
-                <li><a href="" className="list-group-item"><FaComputer />&ensp;Hello World</a></li>
+                <li><a href="" className="list-group-item"><FaComputer />&ensp;Mobile</a></li>
+                <li><a href="" className="list-group-item"><FaComputer />&ensp;Mobile</a></li>
+                <li><a href="" className="list-group-item"><FaComputer />&ensp;Mobile</a></li>
+                <li><a href="" className="list-group-item"><FaComputer />&ensp;Mobile</a></li>
 
                 <li className="dropdown list-group">
-                  <button class="dropdown-toggle list-group-item d-flex align-items-center justify-content-between" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside"><span><FaComputer />&ensp;Dropdown link 1</span></button>
+                  <button class="dropdown-toggle list-group-item d-flex align-items-center justify-content-between" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside"><span><FaComputer />&ensp;Tablate List</span></button>
 
                   <ul class="dropdown-menu p-0 w-100">
-                    <li><a href="" className="list-group-item"><FaComputer />&ensp;Hello World</a></li>
-                    <li><a href="" className="list-group-item"><FaComputer />&ensp;Hello World</a></li>
-                    <li><a href="" className="list-group-item"><FaComputer />&ensp;Hello World</a></li>
-                    <li><a href="" className="list-group-item"><FaComputer />&ensp;Hello World</a></li>
+                    <li><a href="" className="list-group-item"><FaComputer />&ensp;Tablate</a></li>
+                    <li><a href="" className="list-group-item"><FaComputer />&ensp;Tablate</a></li>
+                    <li><a href="" className="list-group-item"><FaComputer />&ensp;Tablate</a></li>
+                    <li><a href="" className="list-group-item"><FaComputer />&ensp;Tablate</a></li>
 
                     <li className="dropdown list-group">
-                      <button class="dropdown-toggle list-group-item d-flex align-items-center justify-content-between" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside"><span><FaComputer />&ensp;Dropdown link 1</span></button>
+                      <button class="dropdown-toggle list-group-item d-flex align-items-center justify-content-between" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside"><span><FaComputer />&ensp;Phone List</span></button>
 
                       <ul class="dropdown-menu p-0 w-100">
-                        <li><a href="" className="list-group-item"><FaComputer />&ensp;Hello World</a></li>
-                        <li><a href="" className="list-group-item"><FaComputer />&ensp;Hello World</a></li>
-                        <li><a href="" className="list-group-item"><FaComputer />&ensp;Hello World</a></li>
-                        <li><a href="" className="list-group-item"><FaComputer />&ensp;Hello World</a></li>
+                        <li><a href="" className="list-group-item"><FaComputer />&ensp;Phone</a></li>
+                        <li><a href="" className="list-group-item"><FaComputer />&ensp;Phone</a></li>
+                        <li><a href="" className="list-group-item"><FaComputer />&ensp;Phone</a></li>
+                        <li><a href="" className="list-group-item"><FaComputer />&ensp;Phone</a></li>
                       </ul>
                     </li>
                   </ul>
@@ -96,8 +96,8 @@ const Offcanvas = () => {
             <li><a href="" className="list-group-item"><FaComputer />&ensp;Hello World</a></li>
 
           </ul>
-        </div>
-      </div>
+        </div >
+      </div >
     </>
   )
 }

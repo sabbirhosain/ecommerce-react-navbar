@@ -50,6 +50,28 @@ const Offcanvas = () => {
                     <li><a href="" className="list-group-item ( offcanvas_item )"><FaComputer />&ensp;Laptop</a></li>
                     <li><a href="" className="list-group-item ( offcanvas_item )"><FaComputer />&ensp;Laptop</a></li>
                     <li><a href="" className="list-group-item ( offcanvas_item )"><FaComputer />&ensp;Laptop</a></li>
+
+                    <li className="dropdown list-group">
+                      <button class="dropdown-toggle list-group-item ( offcanvas_btn )" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside"><span><FaComputer />&ensp;Laptop List</span></button>
+
+                      <ul class="dropdown-menu p-0 w-100">
+                        <li><a href="" className="list-group-item ( offcanvas_item )"><FaComputer />&ensp;Laptop</a></li>
+                        <li><a href="" className="list-group-item ( offcanvas_item )"><FaComputer />&ensp;Laptop</a></li>
+                        <li><a href="" className="list-group-item ( offcanvas_item )"><FaComputer />&ensp;Laptop</a></li>
+                        <li><a href="" className="list-group-item ( offcanvas_item )"><FaComputer />&ensp;Laptop</a></li>
+                        
+                        <li className="dropdown list-group">
+                          <button class="dropdown-toggle list-group-item ( offcanvas_btn )" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside"><span><FaComputer />&ensp;Laptop List</span></button>
+
+                          <ul class="dropdown-menu p-0 w-100">
+                            <li><a href="" className="list-group-item ( offcanvas_item )"><FaComputer />&ensp;Laptop</a></li>
+                            <li><a href="" className="list-group-item ( offcanvas_item )"><FaComputer />&ensp;Laptop</a></li>
+                            <li><a href="" className="list-group-item ( offcanvas_item )"><FaComputer />&ensp;Laptop</a></li>
+                            <li><a href="" className="list-group-item ( offcanvas_item )"><FaComputer />&ensp;Laptop</a></li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </li>
                   </ul>
                 </li>
               </ul>

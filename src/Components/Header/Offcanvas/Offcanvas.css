@@ -7,40 +7,35 @@
   text-transform: uppercase;
 }
 
-.offcanvas_btn {
+.offcanvas_item {
   color: black;
-  width: 100%;
-  font-size: 16px;
   font-weight: 500;
-  text-transform: capitalize;
-  text-decoration: none;
-  padding: 4px 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  cursor: pointer;
   transition: all 0.3s;
 
   &:hover {
-    background-color: rgb(240, 238, 238);
+    color: white;
+    background-color: gray;
   }
 }
 
-.offcanvas_link {
+.list-group>.offcanvas_btn {
   color: black;
-  display: block;
-  font-size: 16px;
   font-weight: 500;
-  text-decoration: none;
-  text-transform: capitalize;
-  text-decoration: none;
-  padding: 4px 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   display: flex;
   align-items: center;
-  cursor: pointer;
-  transition: all 0.3s;
+  justify-content: space-between;
 
   &:hover {
-    background-color: rgb(240, 238, 238);
+    color: white;
+    background-color: gray;
+  }
+
+  &.show {
+    color: white;
+    background-color: gray;
   }
 }

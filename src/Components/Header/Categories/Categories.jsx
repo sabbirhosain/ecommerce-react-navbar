@@ -1,3 +1,4 @@
+import { TbLayoutGridAdd } from "react-icons/tb";
 import "./Categories.css"
 
 const Categories = () => {
@@ -5,26 +6,47 @@ const Categories = () => {
     <>
       <div className="categories_box">
 
-        <button class="btn btn-primary mx-auto" type="button" data-bs-toggle="collapse" data-bs-target="#categories" aria-expanded="false" aria-controls="categories">All Categories</button>
-
-        <div class="collapse" id="categories">
-          <ul class="list-group list-unstyled categories_list">
-            <li> <a href="" class="list-group-item">An item</a></li>
-            <li> <a href="" class="list-group-item">An item</a></li>
-            <li> <a href="" class="list-group-item">An item</a></li>
-            <li> <a href="" class="list-group-item">An item</a></li>
-            <li> <a href="" class="list-group-item">An item</a></li>
-            <li> <a href="" class="list-group-item">An item</a></li>
-            <li> <a href="" class="list-group-item">An item</a></li>
-            <li> <a href="" class="list-group-item">An item</a></li>
-            <li> <a href="" class="list-group-item">An item</a></li>
-            <li> <a href="" class="list-group-item">An item</a></li>
+        <div class="btn-group">
+          <button type="button" class="dropdown-toggle categories_btn" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside">All Categories &emsp;&emsp;&emsp; <TbLayoutGridAdd /></button>
+          <ul class="dropdown-menu categories_dropdown border-0">
+            <li><a class="dropdown-item" href="#">This is Product Categories</a></li>
+            <li><a class="dropdown-item" href="#">This is Product Categories</a></li>
+            <li><a class="dropdown-item" href="#">This is Product Categories</a></li>
+            <li><a class="dropdown-item" href="#">This is Product Categories</a></li>
+            <li><a class="dropdown-item" href="#">This is Product Categories</a></li>
+            <li><a class="dropdown-item" href="#">This is Product Categories</a></li>
+            <li><a class="dropdown-item" href="#">This is Product Categories</a></li>
+            <li><a class="dropdown-item" href="#">This is Product Categories</a></li>
+            <li><a class="dropdown-item" href="#">This is Product Categories</a></li>
+            <li><a class="dropdown-item" href="#">This is Product Categories</a></li>
+            <li><a class="dropdown-item" href="#">This is Product Categories</a></li>
+            <li><a class="dropdown-item" href="#">This is Product Categories</a></li>
+            <li><a class="dropdown-item" href="#">This is Product Categories</a></li>
+            <li><a class="dropdown-item" href="#">This is Product Categories</a></li>
+            <li><a class="dropdown-item" href="#">This is Product Categories</a></li>
+            <li><a class="dropdown-item" href="#">This is Product Categories</a></li>
+            <li><a class="dropdown-item" href="#">This is Product Categories</a></li>
+            <li><a class="dropdown-item" href="#">This is Product Categories</a></li>
+            <li><a class="dropdown-item" href="#">This is Product Categories</a></li>
+            <li><a class="dropdown-item" href="#">This is Product Categories</a></li>
+            <li><a class="dropdown-item" href="#">This is Product Categories</a></li>
+            <li><a class="dropdown-item" href="#">This is Product Categories</a></li>
+            <li><a class="dropdown-item" href="#">This is Product Categories</a></li>
+            <li><a class="dropdown-item" href="#">This is Product Categories</a></li>
+            <li><a class="dropdown-item" href="#">This is Product Categories</a></li>
+            <li><a class="dropdown-item" href="#">This is Product Categories</a></li>
+            <li><a class="dropdown-item" href="#">This is Product Categories</a></li>
+            <li><a class="dropdown-item" href="#">This is Product Categories</a></li>
+            <li><a class="dropdown-item" href="#">This is Product Categories</a></li>
+            <li><a class="dropdown-item" href="#">This is Product Categories</a></li>
+            <li><a class="dropdown-item" href="#">This is Product Categories</a></li>
+            <li><a class="dropdown-item" href="#">This is Product Categories</a></li>
+            <li><a class="dropdown-item" href="#">This is Product Categories</a></li>
+            <li><a class="dropdown-item" href="#">This is Product Categories</a></li>
+            <li><hr class="dropdown-divider" /></li>
+            <li><a class="dropdown-item" href="#">Show More <span>+</span></a></li>
           </ul>
         </div>
-
-
-
-
 
       </div>
     </>

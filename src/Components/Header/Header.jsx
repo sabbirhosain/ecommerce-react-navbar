@@ -10,6 +10,7 @@ import { MdOutlineDashboardCustomize } from "react-icons/md";
 import "./Header.css"
 import Offcanvas from './Offcanvas/Offcanvas';
 import Categories from './Categories/Categories';
+import { FiUser } from 'react-icons/fi';
 
 const Header = () => {
   return (
@@ -19,7 +20,7 @@ const Header = () => {
           {/* <a className="navbar-brand" href="#">Navbar</a> */}
 
           <div className="d-lg-none"><Offcanvas /></div>
-          <div className="col-lg-3 d-none d-lg-block"><Categories /></div>
+          <div className=" d-none d-lg-block"><Categories /></div>
 
           {/* icons for mobile devices */}
           <div className='d-flex align-items-center d-lg-none ms-auto me-3'>
@@ -57,7 +58,7 @@ const Header = () => {
             <span className="navbar-toggler-icon"><HiMiniBarsArrowDown /></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+            <ul className="navbar-nav m-auto mb-2 mb-lg-0">
 
               <li className="nav-item">
                 <a className="nav-link active" aria-current="page" href="#">Home</a>
@@ -174,10 +175,18 @@ const Header = () => {
               </li>
 
             </ul>
-            <form className="d-none d-sm-flex" role="search">
-              <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-              <button className="btn btn-outline-success" type="submit">Search</button>
-            </form>
+
+            <div className="account">
+              <div class="btn-group">
+                <button type="button" class="account_btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"><span className="action_icon"><FiUser /></span>&nbsp;Account</button>
+                <ul class="dropdown-menu border-0">
+                <li><a class="dropdown-item justify-content-start" href="#"><CiLogin />&ensp;Login</a></li>
+                <li><a class="dropdown-item justify-content-start" href="#"><SiGnuprivacyguard />&ensp;Register</a></li>
+                <li><a class="dropdown-item justify-content-start" href="#"><MdOutlineDashboardCustomize />&ensp;Dashbord</a></li>
+                </ul>
+              </div>
+            </div>
+
           </div>
         </div>
       </nav>

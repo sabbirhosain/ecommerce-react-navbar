@@ -1,0 +1,76 @@
+.top_header {
+  background-color: gray;
+}
+
+.logo>.brand_logo {
+  color: white;
+  font-size: 25px;
+  font-weight: 500;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.search_box {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.search_box>.search_fild {
+  width: 100%;
+  height: 40px;
+  padding: 10px 10px;
+  outline: none;
+}
+
+.search_box>.search_btn {
+  width: 100px;
+  height: 38px;
+  border: none;
+  outline: none;
+  background-color: orange;
+}
+
+.action_box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.compare:hover .action_count,
+.compare:hover .action_icon,
+.compare:hover .action_name {
+  transition: all 0.3s;
+  color: orange;
+}
+
+.wishlist:hover .action_count,
+.wishlist:hover .action_icon,
+.wishlist:hover .action_name {
+  transition: all 0.3s;
+  color: orange;
+}
+
+.cart:hover .action_count,
+.cart:hover .action_icon,
+.cart:hover .action_name {
+  transition: all 0.3s;
+  color: orange;
+}
+
+.action_count {
+  color: white;
+  font-size: 12px;
+}
+
+.action_icon {
+  color: white;
+  font-size: 20px;
+}
+
+.action_name {
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+}
